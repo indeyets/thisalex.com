@@ -1,0 +1,27 @@
+# The URL the site will be built for
+base_url = "https://thisalex.com"
+title = "thisalex.com"
+description = "Website of Alex Zakhlestin"
+
+compile_sass = true
+build_search_index = false
+generate_feeds = true
+taxonomies = [{ name = "tags" }]
+
+theme = "apollo"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+theme = "auto"
+menu = [
+    { name = "Posts", url = "/", weight = 1 },
+    { name = "About Me", url = "/about/" },
+]
+socials = [
+    { name = "github", url = "https://github.com/indyets", icon = "github" },
+]
+dynamic_note = true
