@@ -172,7 +172,9 @@
         {% endfor %}
     {% endif %}
 
-    <script src={{ get_url(path="js/mermaid.js") }}></script>
+    {% if config.extra.mermaid | default(value=false) %}
+        <script src={{ get_url(path="js/mermaid.js") }}></script>
+    {% endif %}
 
     {# Search #}
     {%- if config.build_search_index -%}
