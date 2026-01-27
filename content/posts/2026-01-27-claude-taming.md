@@ -50,3 +50,9 @@ A habit of information hoarding finally pays off 🤪
 {% note(clickable=false, hidden=false, header="anticipation") %}
 _p.s. You probably noticed that I didn't say anything about project-level CLAUDE.md files — that was intentional. I find them to be less useful than most people consider them to be. I guess I should write a separate article about that._
 {% end %}
+
+---
+
+### Links Elsewhere
+
+- [Comment at Mastodon](https://hachyderm.io/@thisalex/115969620588584958)
