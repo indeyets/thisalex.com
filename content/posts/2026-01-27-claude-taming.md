@@ -56,3 +56,4 @@ _p.s. You probably noticed that I didn't say anything about project-level CLAUDE
 ### Links Elsewhere
 
 - [Comment at Mastodon](https://hachyderm.io/@thisalex/115969620588584958)
+- [Discuss at LinkedIn](https://www.linkedin.com/pulse/taming-claude-code-aleksei-zakhlestin-trrce)
